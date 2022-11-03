@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+}
+.MainCard-component{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Main-NewtonCard{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding: 5%;
+    flex-wrap: wrap;
+   
+}
+.sudans{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #E28525;
+}
+.suvs{
+    background-color: #016972;
+}
+.Card-Newton-Col{
+    width: 350px;
+    padding-left: 4%;
+}
+.Card-Newton-Col .mainCard-icon{
+ padding: 11% 0% 10% 0%;
+}
+.Card-Newton-Col .card-heading p{
+    padding: 2% 0% 4% 0%;
+    font-size: 3rem;
+    font-family: 'Teko', sans-serif;
+    color: white;
+}
+.Card-descrp p{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding-right: 8%;
+    padding-bottom: 25%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.card-btn {
+    padding-bottom: 15% ;
+   
+}
+.card-btn .learn-newton{
+    padding: 5% 10%;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid transparent;
+    
+}
+.card-btn .learn-newton:hover{
+   background-color: transparent;
+   border: 1px solid white;
+   color: white;
+    
+}
+.luxury{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #00403F;
+}
+.sedans-btn{
+    color: #E28525;
+}
+.sedans-btn:hover{
+    color: white;
+}
+.suvs-btn{
+    color: #016972!important;
+}
+.suvs-btn:hover{
+    color: white!important;
+}
+
+@media(min-width: 480px) and (max-width: 768px){
+    .sudans {
+        border-bottom-left-radius:0%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-color: #E28525;
+    }
+    .luxury {
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0%;
+        background-color: #00403F;
+    }
+    .Card-descrp p {
+        padding-bottom: 9%;
+    }
+    .Card-Newton-Col {
+        
+        padding-left: 10%;
+    }
+}
